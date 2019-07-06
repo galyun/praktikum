@@ -64,5 +64,8 @@ for query in queries:
 queries
 
 
+data['purpose_category'] = data['purpose'].map(determine_category)
+
+
 
 
