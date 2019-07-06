@@ -1,8 +1,16 @@
-В колонке с образованием также много повторов, но уже связанных с формулировкой. Посчитаем количество повторяющихся строк с помощью лемматизации фраз.
-
+Лемматизация:
 from pymystem3 import Mystem
 mystem = Mystem()
-
 lemmas = data['purpose'].map(mystem.lemmatize)
 lemmas.value_counts()
+
+
+Датафрейм из лемматизации:
+counter_list = counter_data.items()
+data_lemmas = pd.DataFrame(data=counter_list)
+data_lemmas
+
+data_lemmas.columns = ['purpose_short', 'count']
+data_lemmas.sort_values(by='count', ascending=False)
+
 
