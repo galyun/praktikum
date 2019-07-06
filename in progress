@@ -1,3 +1,10 @@
+#data.loc[data['total_income'] == 'NaN']['dob_days'] 
+
+#data.loc[:, ['dob_days', 'days_employed', 'income_type', 'total_income']].head(15)
+
+#data.groupby('income_type')['total_income']
+
+
 Лемматизация:
 from pymystem3 import Mystem
 mystem = Mystem()
@@ -12,5 +19,50 @@ data_lemmas
 
 data_lemmas.columns = ['purpose_short', 'count']
 data_lemmas.sort_values(by='count', ascending=False)
+
+
+Найдём и посмотрим, как соотносятся пустые строки в колонках days_employed и total_income. 
+data.loc[:, ['days_employed', 'total_income']].head(50)
+
+
+from nltk.stem import SnowballStemmer 
+russian_stemmer = SnowballStemmer('russian')
+for query in queries:
+    stemmed_query = russian_stemmer.stem(query)
+    
+    for word in stemmed_query.split(' '):
+        if word == 'образование':
+            query == 'образование'
+queries
+
+
+counter_list = counter_data.items()
+data_lemmas = pd.DataFrame(data=counter_list)
+data_lemmas
+
+
+Для того чтобы распределить все значения столбца 'purpose' по темам, нам понадобятся основы слов наших категорий, для этого используем стемминг.
+from nltk.stem import SnowballStemmer 
+russian_stemmer = SnowballStemmer('russian')
+words = ["образование", "автомобиль", "недвижимость"]
+for word in words:
+    print('Исходное слово - ',word, ', основа - ', russian_stemmer.stem(word), sep = '')
+    
+queries = []
+for row in data['purpose']:
+    queries.append(row)
+queries
+
+from nltk.stem import SnowballStemmer 
+russian_stemmer = SnowballStemmer('russian')
+for query in queries:
+    stemmed_query = russian_stemmer.stem(query)
+    
+    for word in stemmed_query.split(' '):
+        if word == 'образование':
+            query == 'образование'
+queries
+
+
 
 
