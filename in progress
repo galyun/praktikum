@@ -1,0 +1,8 @@
+В колонке с образованием также много повторов, но уже связанных с формулировкой. Посчитаем количество повторяющихся строк с помощью лемматизации фраз.
+
+from pymystem3 import Mystem
+mystem = Mystem()
+
+lemmas = data['purpose'].map(mystem.lemmatize)
+lemmas.value_counts()
+
