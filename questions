@@ -8,3 +8,5 @@ Inplace?
 sort_values vs sortby
 
 merge() vs join()
+
+bins в гистограммах
