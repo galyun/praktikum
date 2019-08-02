@@ -3,26 +3,32 @@
 + https://proglib.io/p/pandas-tricks/
 Подробнее об этом см. книгу Джозефа О'Коннора «Искусство системного мышления».
 ознакомьтесь с теорией Нассима Талеба о «чёрных лебедях».
+
 https://www.ritchieng.com/pandas-multi-criteria-filtering/
 https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html
 https://nikgrozev.com/2015/07/01/reshaping-in-pandas-pivot-pivot-table-stack-and-unstack-explained-with-pictures/
 
-http://malev.ru/анализ-данных-при-помощи-python-графики-в-pandas/
-https://habr.com/ru/company/ods/blog/323210/
-http://statistica.ru/theory/opisatelnye-statistiki/
-http://datareview.info/article/svodnyie-tablitsyi-v-python/
++ http://malev.ru/анализ-данных-при-помощи-python-графики-в-pandas/
++ https://habr.com/ru/company/ods/blog/323210/
++ http://statistica.ru/theory/opisatelnye-statistiki/
++++ http://datareview.info/article/svodnyie-tablitsyi-v-python/
 
-https://devpractice.ru/pandas-indexing-part3/#p6
-https://devpractice.ru/pandas-indexing-part3/
-https://www.coursera.org/lecture/mathematics-and-python/pandas-indieksatsiia-i-sieliektsiia-lsXAR
++++ https://devpractice.ru/pandas-indexing-part3/
++++ https://www.coursera.org/lecture/mathematics-and-python/pandas-indieksatsiia-i-sieliektsiia-lsXAR
 
-https://smysl.io/blog/pandas/#Объединяем-несколько-датафреймов
++++ https://smysl.io/blog/pandas/#Объединяем-несколько-датафреймов
 
-https://habr.com/ru/company/ods/blog/323210/
-https://medium.com/nuances-of-programming/5-простых-способов-визуализации-данных-на-python-с-кодом-e0053808c83d
-https://python-scripts.com/matplotlib
-https://tocodata.com/marketing/korrelyaciya.html
-http://malev.ru/анализ-данных-при-помощи-python-графики-в-pandas/
++++ https://medium.com/nuances-of-programming/5-простых-способов-визуализации-данных-на-python-с-кодом-e0053808c83d
++ https://python-scripts.com/matplotlib
++ https://tocodata.com/marketing/korrelyaciya.html
 
-https://habr.com/ru/company/ods/blog/322626/
-https://smysl.io/blog/pandas/
++ https://habr.com/ru/company/ods/blog/322626/
++++ https://smysl.io/blog/pandas/
+
+
+https://function-x.ru/probabilities_expectation_dispersion.html
+http://www.mathprofi.ru/matematicheskoe_ozhidanie_i_dispersiya_nsv.html
+http://statsoft.ru/home/textbook/default.htm
+
+http://mathhelpplanet.com/static.php?p=osnovnye-ponyatiya-tyeorii-veroyatnostyei
+https://statanaliz.info/statistica/teoriya-veroyatnostej/o-raspredelenii-sluchajnykh-velichin/
